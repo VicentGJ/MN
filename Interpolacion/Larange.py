@@ -5,7 +5,7 @@ from sympy.functions import factorial, Abs
 num_list=[[-1,0,1],[0.37,1,2.72]]
 # para hacer un polinomio de grado n necesito n+1 nodos
 
-def inter_larange(x):
+def inter_larange(x, num_list):
     result=0
     for i in range(len(num_list[0])):
         L=1
@@ -28,5 +28,5 @@ def error_larange(x, M):
     result= Abs(result)
     print(f'Error: {result}')
 
-inter_larange(0.5)
+inter_larange(0.5, num_list)
 error_larange(0.5, 7.39)
