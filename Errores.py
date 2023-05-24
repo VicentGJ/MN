@@ -29,7 +29,7 @@ def ultimaCifraExacta(error):
     return result
 
 
-# print(ultimaCifraExacta())
+print(ultimaCifraExacta(0.1))
 # print(errorRel(7, 8.5))
 
-print(EAbs_de_errorRel(0.1/100, 0.0000785))
+#print(EAbs_de_errorRel(0.1/100, 0.0000785))
